@@ -56,6 +56,15 @@ sphinx-needs comes with some default types: ``req``, ``spec``, ``impl``, and ``t
 
         A basic example of a need item.
 
+.. need-example:: A basic need item 2.0
+
+    .. req:: Basic need example 2.0
+        :id: basic_example 2.0
+
+        A basic example of a need item 2.0.
+
+
+
 For our car though, we want to use custom types, to describe aspects of the process.
 This can be created in the ``conf.py`` file, using the :ref:`needs_types` configuration option:
 
